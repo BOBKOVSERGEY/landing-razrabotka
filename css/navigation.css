@@ -3,13 +3,14 @@
     position: fixed;
     z-index: 5;
     width: 100%;
+    transition: all .3s;
 }
 
 .burger {
     position: absolute;
     z-index: 10;
-    left: 25px;
-    top: 25px;
+    left: 50px;
+    top: 30px;
     cursor: pointer;
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
@@ -42,7 +43,6 @@
     -webkit-transform: rotate(-45deg) translate(5px, -4px);
     transform: rotate(-45deg) translate(5px, -4px);
 }
-
 .menu {
     position: fixed;
     top: 0;
@@ -196,9 +196,58 @@
 .logo {
     width: 200px;
     height: 200px;
-    background: #1a1a1a;
+    background: url(../images/logo.svg) no-repeat 50%;
     border-radius: 50%;
 }
+.block-phone-header {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-weight: 300;
+}
+.phone-header {
+    display: inline-block;
+    font-family: 'FuturaPTLight';
+    background: url(../images/phone-header.png) no-repeat 0 50%;
+    padding-left: 40px;
+}
+.phone-header a{
+    font-size: 22px;
+    color: #fff;
+}
+.phone-header a:hover{
+    text-decoration: none;
+}
+.phone-header a:focus{
+    text-decoration: none;
+}
+
+.phone-header span{
+    font-family: FuturaPTMedium;
+}
+.btn-header {
+    font-family: RobotoLight;
+    padding: 7px 40px;
+    background: #f46b87;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn-header:hover {
+    background: #fff;
+    color: #57bf60;
+    text-decoration: none;
+}
+.btn-header:focus {
+    background: #f46b87;
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 

@@ -50,7 +50,7 @@
     Menu.init();
 
     $("#header-menu").on("click","a", function (event) {
-        var burger = document.querySelector('.burger');
+       // var burger = document.querySelector('.burger');
         var menu = document.querySelector('.menu');
         var menuList = document.querySelector('.menu__list');
         var brand = document.querySelector('.menu__brand');
@@ -64,7 +64,6 @@
 
             //узнаем высоту от начала страницы до блока на который ссылается якорь
             top = $(id).offset().top;
-
         if (!active) {
             menu.classList.add('menu--active');
             menuList.classList.add('menu__list--active');
@@ -79,11 +78,10 @@
             menu.classList.remove('menu--active');
             menuList.classList.remove('menu__list--active');
             brand.classList.remove('menu__brand--active');
-            burger.classList.remove('burger--close');
+            //burger.classList.remove('burger--close');
             for (var i = 0, ii = menuItems.length; i < ii; i++) {
                 menuItems[i].classList.remove('menu__item--active');
             }
-
             active = false;
         }
         //анимируем переход на расстояние - top за 1500 мс
@@ -94,10 +92,16 @@
         var scroll = $(window).scrollTop();
 
         if (scroll >= 20) {
-            $('header').addClass('fixed');
+            $('.header').css({
+                "background": "rgba(137,61,152,0.75)",
+                "padding": "38px 0"
+            });
 
         } else {
-            $('header').removeClass('fixed');
+            $('.header').css({
+                "background": "rgba(137,61,152,0)",
+                "padding": "35px 0"
+            });
         }
     });
 
