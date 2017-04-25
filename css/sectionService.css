@@ -1,0 +1,66 @@
+#service {
+    padding: 120px 0;
+}
+.serviceHeading {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: RobotoLight;
+    font-size: 62px;
+}
+.serviceItem {
+    background: #ccc;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: all .3s;
+    position: relative;
+}
+.serviceItem:hover {
+    background: #333;
+    color: #fff;
+}
+.serviceItem:active {
+    box-shadow: 0px 4px 0px #000;
+}
+.serviceItem h3{
+    margin: 20px 0;
+}
+.serviceItemBig {
+    background: #8e469c;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: all .3s;
+    color: #fff;
+    position: relative;
+}
+.serviceItemBig:hover {
+    background: #8e469c;
+    color: #fff;
+}
+.serviceItemBig h3{
+    margin: 40px 0;
+}
+.priceService {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    color: #f56c88;
+}
+.priceServiceGreen {
+    color: #55bd64;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.serviceHit {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background: #55bd64;
+    border-radius: 3px;
+    padding: 0 10px 5px 10px;
+    color: #fff;
+}
+

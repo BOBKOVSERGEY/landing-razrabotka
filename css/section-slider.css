@@ -6,8 +6,61 @@
     height: 100%;
 }
 .slider {
-    background: url(../images/bg01.jpg) no-repeat 50% #2a2827;
+    background: url(../images/programming.jpg) no-repeat 50% #2a2827;
     background-size: cover;
     height: 600px;
     position: relative;
+}
+.triangles-one {
+    width: 50.2%;
+    height: 130px;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    transform: skewY(7deg);
+    background: #fff;
+}
+.triangles-two {
+    width: 50.2%;
+    height: 130px;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    transform: skewY(-7deg);
+    background: #fff;
+}
+.descSliderHeading {
+    color: #e8c93d;
+    padding-top: 150px;
+    font-size: 73px;
+    font-weight: bold;
+    font-family: "RobotoBold";
+}
+.descSlider h1{
+    color: #e8c93d;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "RobotoBold";
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.btnSliderAction {
+    background: #4cc35f;
+    padding: 7px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 18px;
+    font-weight: 300;
+}
+.btnSliderAction:hover {
+    background: #fff;
+    color: #4cc35f;
+    text-decoration: none;
+}
+.btnSliderAction:focus {
+    background: #4ecf61;
+    color: #fff;
+    text-decoration: none;
 }

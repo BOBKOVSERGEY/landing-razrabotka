@@ -71,14 +71,14 @@
 }
 
 @font-face {
-    font-family: 'FuturaPT';
+    font-family: 'FuturaPTBold';
     src: local('FuturaPT'), url(../fonts/FuturaPT-Bold.woff2) format('woff2'), url(..../fonts/FuturaPT-Bold.woff) format('woff');
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'FuturaPT';
+    font-family: 'FuturaPTExtraBold';
     src: local('FuturaPT'), url(../fonts/FuturaPT-Extrabold.woff2) format('woff2'), url(/local/css/fonts/FuturaPT-Extrabold.woff) format('woff');
     font-weight: 700;
     font-style: normal

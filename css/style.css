@@ -1,7 +1,9 @@
 @import "navigation.css";
 @import "section-slider.css";
+@import "sectionService.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;
     font-weight: 300;
+    background: #fff;
 }

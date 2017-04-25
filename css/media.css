@@ -16,6 +16,9 @@
     .burger {
         left: 25px;
     }
+    .descSliderHeading {
+        font-size: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
