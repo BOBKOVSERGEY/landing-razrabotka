@@ -1,0 +1,32 @@
+.sectionAdvantages {
+    padding-top: 220px;
+    padding-bottom: 120px;
+    background: #8d449d;
+    margin-top: -100px;
+}
+.sectionAdvantages h2{
+    text-align: center;
+    font-size: 62px;
+    color: #4cc35f;
+    margin-bottom: 50px;
+}
+.advantagesItem img {
+    float: left;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.advantagesItem p {
+    font-size: 18px;
+}
+.advantagesItem {
+    margin: 50px 0;
+}
+.advantagesItemText {
+    color: #ccc;
+}
+.advantagesItemTitle {
+    color: #e8c93d;
+    font-family: RobotoBold;
+    font-weight: 700;
+}

@@ -2,6 +2,7 @@
 @import "section-slider.css";
 @import "sectionService.css";
 @import "sectionWhyDevelopment.css";
+@import "sectionAdvantages.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;
