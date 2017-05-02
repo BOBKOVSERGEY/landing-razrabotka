@@ -1,0 +1,41 @@
+.sectionWhyWe {
+    padding-top: 120px;
+    padding-bottom: 220px;
+    background: #53bc68;
+    -moz-transform: skewY(-7deg);
+    -webkit-transform: skewY(-7deg);
+    -o-transform: skewY(-7deg);
+    -ms-transform: skewY(-7deg);
+    transform: skewY(-7deg);
+    margin-top: -100px;
+}
+#sectionWhyWe {
+    -moz-transform: skewY(7deg);
+    -webkit-transform: skewY(7deg);
+    -o-transform: skewY(7deg);
+    -ms-transform: skewY(7deg);
+    transform: skewY(7deg);
+}
+.sectionWhyWe h2{
+    font-family: RobotoBold;
+    text-align: center;
+    font-size: 62px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px #000, 5px 4px #8a3f9a;
+}
+.sectionWhyWeItem:nth-child(-n+3) {
+    border-bottom: 1px solid #fff;
+}
+.sectionWhyWeItemBorderLR {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.sectionWhyWeItem h3{
+    color: #e8c93d;
+    font-family: RobotoBold;
+    font-weight: 700;
+}
+.sectionWhyWeItem img {
+    width: 160px;
+}

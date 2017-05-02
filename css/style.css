@@ -3,6 +3,7 @@
 @import "sectionService.css";
 @import "sectionWhyDevelopment.css";
 @import "sectionAdvantages.css";
+@import "sectionWhyWe.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;
