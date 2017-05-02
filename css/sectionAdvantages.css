@@ -5,10 +5,12 @@
     margin-top: -100px;
 }
 .sectionAdvantages h2{
+    font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
     color: #4cc35f;
     margin-bottom: 50px;
+    text-shadow: 3px 3px #000, 5px 4px #fff;
 }
 .advantagesItem img {
     float: left;

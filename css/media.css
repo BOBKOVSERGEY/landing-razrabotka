@@ -16,6 +16,9 @@
     .burger {
         left: 25px;
     }
+    .serviceHeading {
+        font-size: 40px;
+    }
     .descSliderHeading {
         font-size: 40px;
     }
@@ -29,12 +32,27 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .timeline-title {
+        font-size: 16px;
+    }
+    .timeline > li > .timeline-panel {
+        padding: 20px 10px;
+    }
+    .timeline-body p {
+        font-size: 14px;
+    }
+    .advantagesItemTitle {
+        font-size: 20px;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 375px) {
-
-
+    .descSliderHeading {
+        font-size: 30px;
+    }
+    .sectionAdvantages h2{
+        font-size: 30px;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 320px) {

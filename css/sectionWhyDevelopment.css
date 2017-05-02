@@ -17,10 +17,12 @@
     background: #000;
 }
 .sectionWhyDevelopment h2{
+    font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
     color: #e5c83e;
     margin-bottom: 80px;
+    /*text-shadow: 3px 3px #000, 5px 4px #893d98;*/
 }
 .timeline {
     list-style: none;
