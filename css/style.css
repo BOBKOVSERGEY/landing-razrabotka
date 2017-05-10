@@ -4,6 +4,8 @@
 @import "sectionWhyDevelopment.css";
 @import "sectionAdvantages.css";
 @import "sectionWhyWe.css";
+@import "popupform.css";
+@import "stagesDevelopment.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;

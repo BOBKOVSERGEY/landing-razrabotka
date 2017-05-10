@@ -39,6 +39,9 @@
     .sectionWhyDevelopment h2 {
         font-size: 40px;
     }
+    .stagesDevelopment h2 {
+        font-size: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -63,6 +66,12 @@
     }
     .sectionAdvantages h2{
         font-size: 30px;
+    }
+    .advantagesItemTitle {
+        font-size: 21px;
+    }
+    .advantagesItemTitleRight {
+        font-size: 21px;
     }
 }
 /* Extra Small Devices, Phones */

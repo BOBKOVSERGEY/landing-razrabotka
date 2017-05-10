@@ -1,0 +1,48 @@
+.stagesDevelopment {
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background: #e4c93e;
+    margin-top: -100px;
+}
+.stagesDevelopment h2{
+    font-family: RobotoBold;
+    text-align: center;
+    font-size: 62px;
+    color: #000;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px #fff, 5px 4px #000;
+}
+
+.stagesDevelopment .nav-tabs>li.active>a, .stagesDevelopment .nav-tabs>li.active>a:focus, .stagesDevelopment .nav-tabs>li.active>a:hover {
+    color: #e4c93e;
+    cursor: default;
+    background-color: #000;
+    text-align: center;
+    border: 0px
+
+}
+.stagesDevelopment .nav-tabs>li>a:hover {
+    background-color: #f56c88;
+    border: 1px solid #f56c88;
+}
+
+
+         .stagesDevelopment .nav-tabs {
+    border-bottom: 0;
+    text-align: center;
+}
+.stagesDevelopment .nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+    display: inline-block;
+}
+.stagesDevelopment .nav-tabs>li>a {
+    border-radius: 50%;
+}
+.stagesDevelopment .nav>li>a {
+    padding: 10px 19px;
+    color: #000;
+}
+.stagesDevelopment h3 {
+    font-family: RobotoBold;
+}
