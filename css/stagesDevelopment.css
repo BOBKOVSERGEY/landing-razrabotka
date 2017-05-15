@@ -45,4 +45,19 @@
 }
 .stagesDevelopment h3 {
     font-family: RobotoBold;
+    text-transform: uppercase;
+}
+.stagesDevelopmentTabContent {
+    position: relative;
+    padding: 20px;
+    min-height: 378px;
+}
+.stagesDevelopmentTabContentLabel {
+    position: absolute;
+    background: #f56c88;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    right: 20px;
 }

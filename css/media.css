@@ -42,6 +42,31 @@
     .stagesDevelopment h2 {
         font-size: 40px;
     }
+    .sectionOrderCooperation h2{
+        font-size: 37px;
+    }
+     /*timeline*/
+    #timeline {
+        margin: 30px;
+        padding: 0px;
+        width: 90%;
+    }
+    #timeline:before {
+        left: 0;
+    }
+    #timeline .timeline-item .timeline-content {
+        width: 90%;
+        float: right;
+    }
+    #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
+        left: 10%;
+        margin-left: -6px;
+        border-left: 0;
+        border-right: 7px solid #e4c93e;
+    }
+    #timeline .timeline-item .timeline-icon {
+        left: 0;
+    }
 }
 
 /* Extra Small Devices, Phones */
