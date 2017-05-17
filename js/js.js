@@ -151,5 +151,25 @@
 
     /*************/
 
+    $('#js-portfolio-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        fade: false
+    });
+
+    $(".js-slider-prev").on("click", function() {
+        $('#js-portfolio-slider').slick("slickPrev");
+    });
+
+    $(".js-slider-next").on("click", function() {
+        $('#js-portfolio-slider').slick("slickNext");
+    });
+
+
 
 }());

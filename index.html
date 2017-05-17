@@ -42,7 +42,7 @@
                 <ul class="menu__list" id="header-menu">
                     <li class="menu__item"><a href="#service" class="menu__link">Разработка</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Что делаем</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Что сделали</a></li>
+                    <li class="menu__item"><a href="#sectionPortfolio" class="menu__link">Наши работы</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
                 </ul>
@@ -756,6 +756,47 @@
         </section>
     </div>
 </section>
+<section class="sectionPortfolio">
+    <div class="container">
+        <section id="sectionPortfolio">
+            <h2>Наши работы</h2>
+                <div class="portfolio text-center">
+                    <button class="slider-arrow prev js-slider-prev"></button>
+                    <button class="slider-arrow next js-slider-next"></button>
+                    <div id="js-portfolio-slider">
+                        <div class="js-slide">
+                            <div class="portfolio__item">
+                                <div class="portfolio-photo">
+                                    <img src="/images/lp-titan.png"  alt="">
+                                </div>
+                                <p class="portfolio-author">Лендинг для промышленного гиганта ПК Титан</p>
+                                <div class="portfolio-see"><a href="https://www.pktitan.ru/lp/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="js-slide">
+                            <div class="portfolio__item">
+                                <div class="portfolio-photo">
+                                    <img src="/images/kote-portfolio.png"  alt="">
+                                </div>
+                                <p class="portfolio-author">Интернет магазина по подбору запчастей Автокоте</p>
+                                <div class="portfolio-see"><a href="http://9266668737.myjino.ru/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="js-slide">
+                            <div class="portfolio__item">
+                                <div class="portfolio-photo">
+                                    <img src="/images/fgk-portfolio.png"  alt="">
+                                </div>
+                                <p class="portfolio-author">Разработка landing page компании ФГК ГРУПП - бизнес ангелы</p>
+                                <div class="portfolio-see"><a href="#" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i></a></div>
+                            </div>
+                        </div>
+                    </div><!-- /#js-portfolio-slider -->
+
+                </div><!-- /.portfolio -->
+        </section>
+    </div>
+</section>
 <!-- Modal -->
 <div class="modal modalForm fade" id="modalform">
     <div class="modal-dialog">
@@ -804,6 +845,7 @@
 </div>
 <!--EndModal-->
 <script src="/js/jquery.min.js"></script>
+<script src="/js/slick.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/js.js"></script>
 </body>
