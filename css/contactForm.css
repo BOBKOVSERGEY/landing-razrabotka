@@ -1,0 +1,91 @@
+#contactSendForm input::-webkit-input-placeholder {
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+}
+
+#contactSendForm input:-moz-placeholder { /* Firefox 18- */
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+}
+
+#contactSendForm input::-moz-placeholder {  /* Firefox 19+ */
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+}
+
+#contactSendForm input:-ms-input-placeholder {
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+}
+
+#contactSendForm textarea::-webkit-input-placeholder {
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+    padding-top: 100px;
+}
+
+#contactSendForm textarea:-moz-placeholder { /* Firefox 18- */
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+    padding-top: 100px;
+}
+
+#contactSendForm textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+    padding-top: 100px;
+}
+
+#contactSendForm textarea:-ms-input-placeholder {
+    color: #ccc !important;
+    font-family: FuturaPTMedium;
+    padding-top: 100px;
+}
+#contactSendForm .upload-file {
+    color: #fff!important;
+    left: 20px;
+    font-size: 14px;
+    font-family: FuturaPTLight;
+    margin-top: 10px!important;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f56c88;
+    border-radius: 3px;
+    padding: 2px 15px;
+    transition: all 0.3s;
+}
+
+#contactSendForm .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: rgba(139,61,152,.45);
+    border: 0;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+}
+#contactSendForm .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #ccc;
+    font-family: FuturaPTMedium;
+    text-align: center;
+    background-color: rgba(250,110,139,.45);
+    border: 0px solid rgba(250,110,139,.45);
+    border-radius: 4px;
+}
+#contactSendForm .btnSubmit{
+    border: 0;
+    background: #55bd64;
+    padding: 7px 40px;
+    font-family: FuturaPTLight;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .3s;
+}

@@ -170,6 +170,28 @@
         $('#js-portfolio-slider').slick("slickNext");
     });
 
+    /* Slick.js http://kenwheeler.github.io/slick/
+     ========================*/
 
+    $('#js-testimonials-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        fade: false
+    });
+
+    /*datepicker
+    * ==========*/
+    $('.fj-dp').datepicker({
+        format: "dd/mm/yyyy",
+        todayBtn: "linked",
+        language: "ru",
+        todayHighlight: true,
+        //autoclose: true
+    });
 
 }());

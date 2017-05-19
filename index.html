@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +45,7 @@
                     <li class="menu__item"><a href="#" class="menu__link">Что делаем</a></li>
                     <li class="menu__item"><a href="#sectionPortfolio" class="menu__link">Наши работы</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                    <li class="menu__item"><a href="#sectionContact" class="menu__link">Контакты</a></li>
                 </ul>
             </nav>
         </header>
@@ -797,6 +798,107 @@
         </section>
     </div>
 </section>
+<section class="sectionTestimonials">
+    <div class="container">
+        <section id="sectionTestimonials">
+            <h2>Клиенты о нас</h2>
+            <div class="testimonials text-center">
+
+                <div id="js-testimonials-slider">
+
+                    <div class="js-slide">
+                        <div class="testimonials__item">
+                            <p class="testimonials-text">От лица ООО "ФГК ГРУПП" выражаем благодарность за разработку красивого, качественного, приятного в обращении сайта. Хотим отметить скорость исполнения - от подачи заявки до сдачи нам готового продукта прошло не более 10 дней.</p>
+                            <div class="testimonials-photo">
+                                <img src="/images/fgk-t.png" alt="">
+                            </div>
+                            <p class="testimonials-author">Генеральный директор "ФГК-ГРУПП"</p>
+                        </div>
+                    </div>
+
+                    <div class="js-slide">
+                        <div class="testimonials__item">
+                            <p class="testimonials-text">От всей души выражаю Вам искреннюю благодарность за качественно проделанную работу по созданию, оптимизации и продвижению сайта нашего общества. Проделанная Вами работа выполнена с высоким профессионализмом и личным вежливым отношением.</p>
+                            <div class="testimonials-photo">
+                                <img src="/images/pankovskoe-t.png" alt="">
+                            </div>
+                            <p class="testimonials-author">Генеральный директор "Паньковское"</p>
+                        </div>
+                    </div>
+
+                    <div class="js-slide">
+                        <div class="testimonials__item">
+                            <p class="testimonials-text">От всего коллектива выражаем Вам глубокую благодарность за профессиональную и эффективную работу по созданию и продвижению нашего интернет-магазина.</p>
+                            <div class="testimonials-photo">
+                                <img src="/images/consul-t.png" alt="">
+                            </div>
+                            <p class="testimonials-author">Руководитель интернет-магазина</p>
+                        </div>
+                    </div>
+
+                </div><!-- /#js-testimonials-slider -->
+
+            </div><!-- /.testimonials -->
+        </section>
+    </div>
+</section>
+<section class="sectionContact">
+    <div class="sectionContactBgTop">
+        <div class="container">
+            <section id="sectionContact">
+                <h2>Связаться с нами</h2>
+                <div class="col-md-8 col-md-offset-2 section-contacts-form">
+                    <form role="form" action="#" method="post" id="contactSendForm" class="contact-form" data-toggle="validator" enctype="multipart/form-data">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input type="text" name="name" id="contactName" autocomplete="off" class="form-control" placeholder="Ваше имя или компания" required data-error="Пожалуйста, введите Ваше имя">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input type="email" name="email" class="email  form-control" autocomplete="off" id="contactEmail" placeholder="Ваш E-mail" required data-error="Пожалуйста, введите Ваш E-mail">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input type="tel" name="tel" id="contactMsg_subject" class="form-control input9" autocomplete="off" placeholder="Ваш номер телефона" required data-error="Пожалуйста, введите Ваш номер телефона">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-daterange input-group fj-dp" id="datepicker">
+                                    <input type="text" placeholder="Дата запуска проекта" class="input-sm form-control" name="start">
+                                    <span class="input-group-addon">По</span>
+                                    <input type="text" placeholder="Дата сдачи проекта"class="input-sm form-control" name="end">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <textarea name="message" id="contactMessage" rows="7" placeholder="Ваш комментарий" autocomplete="off" class="form-control" required data-error="Пожалуйста, введите Ваше сообщение"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input id="contactFile" autocomplete="off" type="file" class="hide-type-file inputfile" data-multiple-caption="{count} files selected" name="file">
+                                    <label class="upload-file" for="contactFile"><span>Загрузить файл</span></label>
+                                </div>
+                            </div>
+                            <div class="text-center margin-button"><button type="submit" name="sendMail" id="contactSubmit" class="btnSubmit">Отправить</button></div>
+                        </fieldset>
+                    </form>
+                    <!-- End Contact Form -->
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><img src="/images/logo.svg" width="50" alt=""></div>
+        </div>
+    </div>
+</footer>
 <!-- Modal -->
 <div class="modal modalForm fade" id="modalform">
     <div class="modal-dialog">
@@ -847,6 +949,8 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/slick.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap-datepicker.min.js"></script>
+<script src="/js/bootstrap-datepicker.ru.min.js"></script>
 <script src="/js/js.js"></script>
 </body>
 </html>

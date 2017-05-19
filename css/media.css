@@ -48,6 +48,12 @@
     .sectionPortfolio h2{
         font-size: 40px;
     }
+    .sectionTestimonials h2{
+        font-size: 40px;
+    }
+    .sectionContact h2 {
+        font-size: 40px;
+    }
      /*timeline*/
     #timeline {
         margin: 30px;

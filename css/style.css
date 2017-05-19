@@ -8,6 +8,10 @@
 @import "stagesDevelopment.css";
 @import "sectionOrderCooperation.css";
 @import "sectionPortfolio.css";
+@import "sectionFooter.css";
+@import "sectionTestimonials.css";
+@import "sectionContact.css";
+@import "contactForm.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;
