@@ -124,3 +124,15 @@ input[type="file"] {
     font-size: 31px;
     opacity: .5;
 }
+.modalForm label.error {
+    font-family: FuturaPTLight;
+    position: absolute;
+    right: 45px;
+    margin-top: -28px;
+    font-size: 14px;
+    color: #f46b87;
+}
+.thank {
+    text-align: center;
+    color: #4bc35f;
+}

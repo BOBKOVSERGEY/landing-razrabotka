@@ -54,6 +54,12 @@
     .sectionContact h2 {
         font-size: 40px;
     }
+    .contactInfo {
+        font-size: 18px;
+    }
+    .sectionContactsPhone a {
+        font-size: 22px;
+    }
      /*timeline*/
     #timeline {
         margin: 30px;

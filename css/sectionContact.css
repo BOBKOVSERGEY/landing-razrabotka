@@ -21,3 +21,28 @@
     margin-bottom: 50px;
     text-shadow: 3px 3px #90489e, 5px 4px #53bc68;
 }
+.contactInfo {
+    color: #fff;
+}
+.sectionContactsPhone a {
+    color: #e5c83c;
+    font-family: FuturaPTMedium;
+    font-size: 32px;
+    background: rgba(255,255,255,.1);
+    padding: 0 15px;
+    border-radius: 3px;
+}
+.sectionContactsPhone a:hover {
+    text-decoration: none;
+}
+.sectionContactsPhone a:focus {
+    text-decoration: none;
+}
+.contactThank {
+    text-align: center;
+    padding: 50px;
+    font-size: 32px;
+    color:#fff;
+    border:1px solid #ccc;
+    margin-top: 150px;
+}
