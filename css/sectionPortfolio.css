@@ -2,15 +2,15 @@
     padding-top: 220px;
     padding-bottom: 200px;
     margin-top: -100px;
-    background: #fff;
+    background: #e5c83e;
 }
 .sectionPortfolio h2{
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #8a3b97;
+    color: #333;
     margin-bottom: 20px;
-    text-shadow: 3px 3px #fff, 5px 4px #8a3b97;
+    text-shadow: 3px 3px #fff, 5px 4px #333;
 }
 
 .portfolio {
@@ -24,7 +24,7 @@
     margin-bottom: 20px;
 }
 .portfolio-photo img {
-    max-width: 950px;
+    max-width: 900px;
     width: 100%;
 }
 .portfolio-author {
@@ -33,11 +33,11 @@
 }
 .portfolio-see a i{
     font-size: 50px;
-    color: rgba(138,62,152,.8);
+    color: rgba(51,51,51,.8);
 }
 .portfolio-see a i:hover{
     font-size: 50px;
-    color: rgba(138,62,152,1);
+    color: rgba(51,51,51,1);
 }
 .slider-arrow {
     border: 0;

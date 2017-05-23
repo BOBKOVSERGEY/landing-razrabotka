@@ -1,6 +1,6 @@
 .sectionAdvantages {
     padding-top: 220px;
-    padding-bottom: 200px;
+    padding-bottom: 220px;
     background: #8d449d;
     margin-top: -120px;
 }
@@ -8,9 +8,9 @@
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #4cc35f;
+    color: #f56c88;
     margin-bottom: 20px;
-    text-shadow: 3px 3px #000, 5px 4px #fff;
+    text-shadow: 3px 3px #fff, 5px 4px #000;
 }
 .advantagesItem img {
     float: left;
@@ -26,15 +26,17 @@
 
 .advantagesItem {
     margin: 50px 0;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(204,204,204,.2);
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 5px;
+    background: rgba(204,204,204,.2);
 }
 .advantagesItemRight {
 
 }
 .advantagesItemText {
     color: #ccc;
+    margin-top: 20px;
 }
 .advantagesItemTitle {
     color: #e8c93d;

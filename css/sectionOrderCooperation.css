@@ -1,7 +1,7 @@
 .sectionOrderCooperation {
     padding-top: 120px;
     padding-bottom: 180px;
-    background: #f56c88;
+    background: #4ac25e;
     -moz-transform: skewY(7deg);
     -webkit-transform: skewY(7deg);
     -o-transform: skewY(7deg);
@@ -20,9 +20,9 @@
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #8a3f9a;
+    color: #fff;
     margin-bottom: 80px;
-    text-shadow: 3px 3px #fff, 5px 4px #000;
+    text-shadow: 3px 3px #000, 5px 4px #fff;
 }
 
 
@@ -52,7 +52,7 @@
     content: "";
     width: 3px;
     height: 100%;
-    background: #000;
+    background: #fff;
     left: 50%;
     top: 0;
     position: absolute;
@@ -68,13 +68,13 @@
     position: relative;
 }
 #timeline .timeline-item .timeline-icon {
-    background: #e6c93f;
+    background: #fb728c;
     width: 50px;
     height: 50px;
     position: absolute;
     top: 0;
     left: 50%;
-    color: #000;
+    color: #fff;
     text-align: center;
     line-height: 50px;
     overflow: hidden;
@@ -106,8 +106,8 @@
 }
 #timeline .timeline-item .timeline-content h3 {
     padding: 15px;
-    background: #e6c93f;
-    color: #000;
+    background: #fb728c;
+    color: #fff;
     margin: -20px -20px 0 -20px;
     font-weight: 300;
     -webkit-border-radius: 3px 3px 0 0;
@@ -124,7 +124,7 @@
     height: 0;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
-    border-left: 7px solid #e6c93f;
+    border-left: 7px solid #fb728c;
 }
 #timeline .timeline-item .timeline-content.right {
     float: right;
@@ -134,5 +134,5 @@
     right: 45%;
     left: inherit;
     border-left: 0;
-    border-right: 7px solid #e6c93f;
+    border-right: 7px solid #fb728c;
 }

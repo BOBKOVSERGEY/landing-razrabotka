@@ -72,7 +72,7 @@
 .menu__list {
     margin: 0;
     padding: 0;
-    background: rgba(84,189,94,1);
+    background: rgba(84,189,94,.9);
     list-style-type: none;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);

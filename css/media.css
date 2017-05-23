@@ -81,26 +81,50 @@
         left: 10%;
         margin-left: -6px;
         border-left: 0;
-        border-right: 7px solid #e4c93e;
+        border-right: 7px solid #fb728c;
     }
     #timeline .timeline-item .timeline-icon {
+        left: 0;
+    }
+
+    /*timelineTop*/
+    #timelineTop {
+        margin: 30px;
+        padding: 0px;
+        width: 90%;
+    }
+    #timelineTop:before {
+        left: 0;
+    }
+    #timelineTop .timeline-item .timeline-content {
+        width: 90%;
+        float: right;
+        font-size: 20px;
+    }
+    #timelineTop .timeline-item .timeline-content h3{
+        font-size: 20px;
+    }
+    #timelineTop .timeline-item .timeline-content:before, #timelineTop .timeline-item .timeline-content.right:before {
+        left: 10%;
+        margin-left: -6px;
+        border-left: 0;
+        border-right: 7px solid #e4c93e;
+    }
+    #timelineTop .timeline-item .timeline-icon {
         left: 0;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .timeline-title {
-        font-size: 16px;
-    }
-    .timeline > li > .timeline-panel {
-        padding: 20px 10px;
-    }
-    .timeline-body p {
-        font-size: 14px;
-    }
     .advantagesItemTitle {
         font-size: 20px;
+    }
+    .advantagesItem img {
+        float: none;
+    }
+    .advantagesItemRight img{
+        float: none;
     }
 }
 /* Extra Small Devices, Phones */

@@ -20,9 +20,9 @@
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #55bd64;
+    color: #f56c88;
     margin-bottom: 50px;
-    text-shadow: 3px 3px #000, 5px 4px #fff;
+    text-shadow: 3px 3px #fff, 5px 4px #f56c88;
 }
 .sectionTestimonials .slick-dots li.slick-active button {
     background-color: #f56c88;
