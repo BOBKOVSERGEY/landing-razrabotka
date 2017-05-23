@@ -72,6 +72,10 @@
     #timeline .timeline-item .timeline-content {
         width: 90%;
         float: right;
+        font-size: 20px;
+    }
+    #timeline .timeline-item .timeline-content h3{
+        font-size: 20px;
     }
     #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
         left: 10%;
