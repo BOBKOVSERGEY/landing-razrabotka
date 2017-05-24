@@ -157,7 +157,7 @@
         slidesToScroll: 1,
         arrows: false,
         dots: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         fade: false
     });
@@ -180,7 +180,7 @@
         arrows: false,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 5000,
         fade: false
     });
 

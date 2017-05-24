@@ -1,40 +1,35 @@
 .sectionOrderCooperation {
     padding-top: 120px;
     padding-bottom: 180px;
-    background: #4ac25e;
-    -moz-transform: skewY(7deg);
-    -webkit-transform: skewY(7deg);
-    -o-transform: skewY(7deg);
-    -ms-transform: skewY(7deg);
-    transform: skewY(7deg);
-    margin-top: -120px;
-}
-#sectionOrderCooperation {
+    background: #fff;
     -moz-transform: skewY(-7deg);
     -webkit-transform: skewY(-7deg);
     -o-transform: skewY(-7deg);
     -ms-transform: skewY(-7deg);
     transform: skewY(-7deg);
+    margin-top: -120px;
+}
+#sectionOrderCooperation {
+    -moz-transform: skewY(7deg);
+    -webkit-transform: skewY(7deg);
+    -o-transform: skewY(7deg);
+    -ms-transform: skewY(7deg);
+    transform: skewY(7deg);
 }
 .sectionOrderCooperation h2{
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #fff;
+    color: #000;
     margin-bottom: 80px;
-    text-shadow: 3px 3px #000, 5px 4px #fff;
+    text-shadow: 3px 3px #fff, 5px 4px #000;
 }
-
-
-
-
 #timeline .timeline-item:after, #timeline .timeline-item:before {
     content: '';
     display: block;
     width: 100%;
     clear: both;
 }
-
 #timeline {
     width: 100%;
     margin: 30px auto;
@@ -52,7 +47,7 @@
     content: "";
     width: 3px;
     height: 100%;
-    background: #fff;
+    background: #000;
     left: 50%;
     top: 0;
     position: absolute;
@@ -74,7 +69,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    color: #fff;
+    color: #000;
     text-align: center;
     line-height: 50px;
     overflow: hidden;
@@ -89,7 +84,7 @@
 }
 #timeline .timeline-item .timeline-content {
     width: 45%;
-    background: #fff;
+    background: #ccc;
     padding: 20px;
     -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -105,9 +100,10 @@
     transition: all 0.3s ease;
 }
 #timeline .timeline-item .timeline-content h3 {
+    font-family: RobotoMedium;
     padding: 15px;
     background: #fb728c;
-    color: #fff;
+    color: #000;
     margin: -20px -20px 0 -20px;
     font-weight: 300;
     -webkit-border-radius: 3px 3px 0 0;

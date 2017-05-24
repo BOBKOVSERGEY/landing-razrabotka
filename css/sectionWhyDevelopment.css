@@ -20,9 +20,9 @@
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #e5c83e;
+    color: #fff;
     margin-bottom: 80px;
-    text-shadow: 3px 3px #000, 5px 4px #fff;
+    text-shadow: 3px 3px #000, 5px 4px #8d449d;
 }
 #timelineTop .timeline-item:after, #timelineTop .timeline-item:before {
     content: '';
@@ -48,7 +48,7 @@
     content: "";
     width: 3px;
     height: 100%;
-    background: #fff;
+    background: #55bd5e;
     left: 50%;
     top: 0;
     position: absolute;
@@ -64,13 +64,13 @@
     position: relative;
 }
 #timelineTop .timeline-item .timeline-icon {
-    background: #e6c93f;
+    background: #8d449d;
     width: 50px;
     height: 50px;
     position: absolute;
     top: 0;
     left: 50%;
-    color: #000;
+    color: #ccc;
     text-align: center;
     line-height: 50px;
     overflow: hidden;
@@ -101,10 +101,10 @@
     transition: all 0.3s ease;
 }
 #timelineTop .timeline-item .timeline-content h3 {
-    font-family: Roboto;
+    font-family: RobotoMedium;
     padding: 15px;
-    background: #e6c93f;
-    color: #000;
+    background: #8d449d;
+    color: #ccc;
     margin: -20px -20px 0 -20px;
     font-weight: 300;
     -webkit-border-radius: 3px 3px 0 0;
@@ -121,7 +121,7 @@
     height: 0;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
-    border-left: 7px solid #e6c93f;
+    border-left: 7px solid #8d449d;
 }
 #timelineTop .timeline-item .timeline-content.right {
     float: right;
@@ -131,5 +131,5 @@
     right: 45%;
     left: inherit;
     border-left: 0;
-    border-right: 7px solid #e6c93f;
+    border-right: 7px solid #8d449d;
 }

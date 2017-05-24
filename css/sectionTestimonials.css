@@ -1,13 +1,13 @@
 .sectionTestimonials {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 180px;
-    background: #E5E5E5;
+    background: #8a3e98;
     -moz-transform: skewY(-7deg);
     -webkit-transform: skewY(-7deg);
     -o-transform: skewY(-7deg);
     -ms-transform: skewY(-7deg);
     transform: skewY(-7deg);
-    margin-top: -100px;
+    margin-top: -120px;
 }
 #sectionTestimonials {
     -moz-transform: skewY(7deg);
@@ -20,9 +20,9 @@
     font-family: RobotoBold;
     text-align: center;
     font-size: 62px;
-    color: #f56c88;
+    color: #000;
     margin-bottom: 50px;
-    text-shadow: 3px 3px #fff, 5px 4px #f56c88;
+    text-shadow: 3px 3px #fff, 5px 4px #000;
 }
 .sectionTestimonials .slick-dots li.slick-active button {
     background-color: #f56c88;
@@ -33,8 +33,7 @@
     opacity: 0.4;
 }
 .testimonials {
-    background: url(../images/quotes.png) top center no-repeat;
-    padding-top: 60px;
+    padding-top: 30px;
     position: relative;
 }
 .testimonials__item:focus {
@@ -53,6 +52,6 @@
     border-radius: 5px;
 }
 .testimonials-author {
-    color: #5e5e5e;
-    font-size: 12px;
+    color: #ccc;
+    font-size: 15px;
 }
