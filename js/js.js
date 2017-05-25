@@ -49,6 +49,21 @@
 
     Menu.init();
 
+    $(".btnSliderAction").on('click', function (event) {
+        //отменяем стандартную обработку нажатия по ссылке
+        event.preventDefault();
+
+        //забираем идентификатор бока с атрибута href
+        var id  = $(this).attr('href'),
+
+          //узнаем высоту от начала страницы до блока на который ссылается якорь
+          top = $(id).offset().top;
+
+        //анимируем переход на расстояние - top за 1500 мс
+        $('body,html').animate({scrollTop: top}, 1500);
+
+    });
+
     $("#header-menu").on("click","a", function (event) {
        // var burger = document.querySelector('.burger');
         var menu = document.querySelector('.menu');
@@ -192,6 +207,31 @@
         language: "ru",
         todayHighlight: true,
         //autoclose: true
+    });
+
+    var offset = 300,
+      //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+      offset_opacity = 1200,
+      //duration of the top scrolling animation (in ms)
+      scroll_top_duration = 1500,
+      //grab the "back to top" link
+      $back_to_top = $('.cd-top');
+
+    //hide or show the "back to top" link
+    $(window).scroll(function(){
+        ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+        if( $(this).scrollTop() > offset_opacity ) {
+            $back_to_top.addClass('cd-fade-out');
+        }
+    });
+
+    //smooth scroll to top
+    $back_to_top.on('click', function(event){
+        event.preventDefault();
+        $('body,html').animate({
+              scrollTop: 0 ,
+          }, scroll_top_duration
+        );
     });
 
 }());

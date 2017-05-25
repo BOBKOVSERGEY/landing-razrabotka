@@ -12,6 +12,7 @@
 @import "sectionTestimonials.css";
 @import "sectionContact.css";
 @import "contactForm.css";
+@import "buttonTop.css";
 body{
     font-family: "RobotoLight";
     font-size: 22px;

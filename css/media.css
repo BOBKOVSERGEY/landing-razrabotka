@@ -114,6 +114,11 @@
         left: 0;
     }
 }
+@media only screen and (max-width : 540px) {
+  footer {
+    display: none;
+  }
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -125,9 +130,6 @@
     }
     .advantagesItemRight img{
         float: none;
-    }
-    footer {
-        display: none;
     }
     .thankYouForAttention {
         font-size: 22px;
@@ -146,6 +148,9 @@
     }
     .advantagesItemTitleRight {
         font-size: 21px;
+    }
+    .hidden-phone {
+      display: none;
     }
 }
 /* Extra Small Devices, Phones */
@@ -175,13 +180,22 @@ and (max-device-width : 667px) {
 
 
 }
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    .cd-top {
+        right: 20px;
+        bottom: 80px;
+    }
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
+}
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 80px;
+    }
 }
