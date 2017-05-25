@@ -47,6 +47,11 @@
     margin-top: 150px;
 }
 .thankYouForAttention {
-    color: #fff;
-    margin-top: 20px;
+    color: #e5c83c;
+    font-family: FuturaPTMedium;
+    font-size: 32px;
+    background: rgba(255,255,255,.1);
+    padding: 0 15px;
+    border-radius: 3px;
+    margin-top: 30px;
 }

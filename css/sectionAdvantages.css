@@ -38,6 +38,9 @@
     color: #ccc;
     margin-top: 20px;
 }
+.advantagesItemText p{
+    font-size: 21px;
+}
 .advantagesItemTitle {
     color: #e8c93d;
     font-family: RobotoBold;

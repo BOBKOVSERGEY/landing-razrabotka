@@ -126,6 +126,12 @@
     .advantagesItemRight img{
         float: none;
     }
+    footer {
+        display: none;
+    }
+    .thankYouForAttention {
+        font-size: 22px;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 375px) {
@@ -144,7 +150,6 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 320px) {
-
 
 }
 
