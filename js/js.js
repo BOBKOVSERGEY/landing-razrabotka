@@ -107,16 +107,10 @@
         var scroll = $(window).scrollTop();
 
         if (scroll >= 20) {
-            $('.header').css({
-                "background": "rgba(137,61,152,0.75)",
-                "padding": "38px 0"
-            });
+            $('.header').addClass('menu-scroll');
 
         } else {
-            $('.header').css({
-                "background": "rgba(137,61,152,0)",
-                "padding": "35px 0"
-            });
+            $('.header').removeClass('menu-scroll');
         }
     });
 

@@ -33,6 +33,11 @@
     .descSliderHeading {
         font-size: 40px;
     }
+    .descSlider h1{
+      font-size: 22px;
+      font-weight: 300;
+      font-family: "RobotoBold";
+    }
     .sectionAdvantages h2{
         font-size: 40px;
     }
@@ -139,6 +144,11 @@
 @media only screen and (max-width : 375px) {
     .descSliderHeading {
         font-size: 30px;
+    }
+    .descSlider h1{
+      font-size: 22px;
+      font-weight: 300;
+      font-family: "RobotoBold";
     }
     .sectionAdvantages h2{
         font-size: 30px;

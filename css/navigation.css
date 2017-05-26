@@ -3,7 +3,8 @@
     position: fixed;
     z-index: 5;
     width: 100%;
-    transition: all .3s;
+    transition: all .5s;
+    padding: 38px 0;
 }
 
 .burger {
@@ -260,6 +261,10 @@
 .brand__phone {
     color: #000;
 }
+.menu-scroll {
+    background: rgba(137,61,152,0.75);
+}
+
 
 
 
