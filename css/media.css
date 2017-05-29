@@ -139,6 +139,9 @@
     .thankYouForAttention {
         font-size: 22px;
     }
+    .hidden-phone {
+        display: none;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 375px) {
@@ -159,9 +162,7 @@
     .advantagesItemTitleRight {
         font-size: 21px;
     }
-    .hidden-phone {
-      display: none;
-    }
+
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 320px) {

@@ -11,9 +11,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v5">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <meta name="Publisher-URL" Content="https://www.sitesdevelopment.ru/lp/">
+    <meta property="og:url" content="https://www.sitesdevelopment.ru/lp/">
+    <meta property="og:image" content="https://www.sitesdevelopment.ru/lp/images/banner.jpg">
+    <meta property="og:title" content="Разработка скриптов и сайтов любой сложности">
+    <meta property="og:description" content="Разработка скриптов и сайтов любой сложности от landing-page до крупных интернет-магазинов с нестандартным функционалом.">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -57,6 +62,14 @@
                     <div class="descSliderHeading text-center">SitesDevelopment</div>
                     <h1>Разработка скриптов и сайтов любой сложности <span class="hidden-phone">от landing-page до крупных интернет-магазинов с нестандартным функционалом.</span></h1>
                     <a href="#sectionContact" class="btnSliderAction">Хочу заказать</a>
+                    <a class="mouse" href="#service">
+                        <div class="mouse__scroll">
+                            <div class="mouse__wheel"></div>
+                        </div>
+                        <span class="mouse__arrows first"></span>
+                        <span class="mouse__arrows second"></span>
+                        <span class="mouse__arrows third"></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -756,7 +769,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6">
-                <img src="images/logo.svg" width="50" alt="">
+                <img src="images/logo.svg" class="logo-bottom" width="50" alt="">
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                 <div class="help"><a class="help__btn"data-toggle="modal" data-target="#modalform"><i class="fa fa-question-circle" aria-hidden="true"></i> Поддержка</a></div>
@@ -820,5 +833,34 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/engine.js"></script>
 <script src="js/js.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34645500 = new Ya.Metrika({
+                    id:34645500,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34645500" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>

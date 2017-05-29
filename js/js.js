@@ -49,7 +49,7 @@
 
     Menu.init();
 
-    $(".btnSliderAction").on('click', function (event) {
+    $(".btnSliderAction, .mouse").on('click', function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
 

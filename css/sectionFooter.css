@@ -22,9 +22,46 @@ footer {
     cursor: pointer;
 }
 .help__btn:hover {
+    border: 2px solid rgba(142,70,156, .8);
     text-decoration: none;
     color: rgba(142,70,156, .8);
 }
 .help__btn:focus {
     text-decoration: none;
 }
+
+@-webkit-keyframes logo {
+    from {
+        -webkit-transform: rotate(0deg) scale(.5);
+        left: 120%;
+    }
+    50% {
+        -webkit-transform: rotate(-720deg) scale(.5);
+        left: 0;
+    }
+    to {
+        -webkit-transform: rotate(0deg) scale(1);
+        left: 0;
+    }
+}
+@keyframes logo {
+    from {
+        transform: rotate(0deg) scale(.5);
+        left: 120%;
+    }
+    50% {
+        transform: rotate(-720deg) scale(.5);
+        left: 0;
+    }
+    to {
+        transform: rotate(0deg) scale(1);
+        left: 0;
+    }
+}
+
+.logo-bottom {
+    -webkit-animation: logo 10s forwards;
+    animation: logo 10s forwards;
+}
+
+
