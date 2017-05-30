@@ -87,12 +87,19 @@
 #contactSendForm .btnSubmit{
     border: 0;
     background: #55bd64;
-    padding: 7px 40px;
+    padding: 20px 80px;
     font-family: FuturaPTLight;
-    font-size: 18px;
+    font-size: 23px;
     color: #fff;
     border-radius: 5px;
     transition: all .3s;
+    box-shadow: 3px 3px 0 #49964B;
+}
+#contactSendForm .btnSubmit:hover{
+    background: rgba(85,189,100,.8);
+}
+#contactSendForm .btnSubmit:focus{
+    box-shadow: none;
 }
 #contactSendForm input.form-control{
     height: 54px;

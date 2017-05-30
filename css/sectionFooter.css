@@ -7,7 +7,7 @@ footer {
     background: rgba(204,204,204,.75);
 }
 .help {
-    margin: 10px 30px 0 0;
+    margin: 13px 30px 0 0;
 }
 .help__btn {
     border: 2px solid #8e469c;
@@ -60,8 +60,30 @@ footer {
 }
 
 .logo-bottom {
-    -webkit-animation: logo 10s forwards;
-    animation: logo 10s forwards;
+    -webkit-animation: logo 5s forwards;
+    animation: logo 5s forwards;
+}
+.greeting {
+    margin: 15px 0 0 20px;
+    position: relative;
+    background: rgba(255,255,255,.45);
+    padding: 6px 20px;
+    border-radius: 2px;
+    color: #000;
+}
+.sdpointer {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 13px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid rgba(255,255,255,.45);
+}
+.footer-left {
+    margin-top: 5px;
 }
 
 

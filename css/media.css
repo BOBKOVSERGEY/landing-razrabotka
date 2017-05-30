@@ -118,11 +118,21 @@
     #timelineTop .timeline-item .timeline-icon {
         left: 0;
     }
+    .descSlider h1 {
+        font-weight: 300;
+        font-family: "RobotoLight";
+    }
 }
 @media only screen and (max-width : 540px) {
   footer {
     display: none;
   }
+}
+
+@media only screen and (max-width : 570px) {
+    .greeting {
+        font-size: 18px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -142,16 +152,12 @@
     .hidden-phone {
         display: none;
     }
+
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 375px) {
     .descSliderHeading {
         font-size: 30px;
-    }
-    .descSlider h1{
-      font-size: 22px;
-      font-weight: 300;
-      font-family: "RobotoBold";
     }
     .sectionAdvantages h2{
         font-size: 30px;

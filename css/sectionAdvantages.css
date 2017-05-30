@@ -30,6 +30,7 @@
     padding: 20px;
     border-radius: 5px;
     background: rgba(204,204,204,.2);
+    box-shadow: 0 0 10px #000;
 }
 .advantagesItemRight {
 
